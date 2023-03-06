@@ -97,17 +97,10 @@ a:hover::before {
     position: relative;
   }
   
-  .heading::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: '';
-    width: 100px;
-    height: 4px;
-    background: #263760;
-  }
-  
   .heading h5 {
+    text-decoration-line: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness:2px;
     font-weight: 400;
     letter-spacing: 2px;
     padding-top: 20px;
